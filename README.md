@@ -1,11 +1,15 @@
 #  Isaac Sim Unitree Go2 ROS2
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-orange.svg)](https://docs.ros.org/en/humble/index.html)
-[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0-red.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
-[![IsaacLab](https://img.shields.io/badge/IsaacLab-2.1.0-purple.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
+[![IsaacSim](https://img.shields.io/badge/IsaacSim-5.0.0-red.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
+[![IsaacLab](https://img.shields.io/badge/IsaacLab-2.2.0-purple.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
 [![Linux platform](https://img.shields.io/badge/platform-Ubuntu--22.04-green.svg)](https://releases.ubuntu.com/22.04/)
+[![Windows 11](https://img.shields.io/badge/platform-Windows--11-0078D6?logo=windows&logoColor=white)](https://learn.microsoft.com/windows/)
+[![WSL2](https://img.shields.io/badge/platform-WSL2-0E83CD?logo=linux&logoColor=white)](https://learn.microsoft.com/windows/wsl/)
 
-This fork supports isaac sim 4.5 and isaaclab 2.1.
+This fork supports isaac sim 5.0 and isaaclab 2.2.
+
+This fork is on develop now.
 
 Welcome to the Isaac Sim Unitree Go2 repository! This repository provides a Unitree Go2 quadruped robot simulation, leveraging the Isaac Sim/Isaac Lab framework and integrating seamlessly with a ROS 2 interface. It offers a flexible platform for testing navigation, decision-making, and other autonomous tasks in various scenarios.
 
@@ -19,9 +23,9 @@ Welcome to the Isaac Sim Unitree Go2 repository! This repository provides a Unit
 
 
 ## Installation Guide
-**Step 0:** Install [Isaac Sim 4.5](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html) (Download and extract contents in `${HOME}/isaacsim`)
+**Step 0:** Install [Isaac Sim 5.0](https://docs.isaacsim.omniverse.nvidia.com/5.0.0/installation/download.html) (Download and extract contents in `${HOME}/isaacsim`)
 
-**Step I:** Please follow the [Isaac Lab official documentation](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/binaries_installation.html) to install Isaac Lab 2.1.0.
+**Step I:** Please follow the [Isaac Lab official documentation](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/binaries_installation.html) to install Isaac Lab 2.2.0.
 
 **Step II:** Please install [ROS2 Humble](https://docs.ros.org/en/humble/index.html) with the official installation guide.
 
